@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil do Corretor - MeuCorretor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="scripts/port.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body class="font-sans bg-gray-100">
+<header id="imagem" class="bg-gray-30 shadow-sm pt-3 pb-3"> <!-- Alterado para fundo cinza claro -->
+  <nav class="mx-auto max-w-6xl p-3 sm:p-4 lg:px-8" aria-label="Global">
+    <div class="flex items-center justify-center">
+      <a href="#" class="flex items-center justify-center">
+        <span class="sr-only">Sua Empresa</span>
+        
+      </a>
+    </div>
+  </nav>
+</header>
+
+
+<!-- Perfil do Corretor -->
+<div id="imagem" >
+    <section  class="text-center py-10 bg-gray-100">
+    <div class="container mx-auto">
+        <img class="w-40 h-40 rounded-full mx-auto object-cover shadow-lg" src="https://img.freepik.com/fotos-gratis/homem-de-porte-medio-a-trabalhar-como-agente-imobiliario_23-2151064826.jpg?w=996&t=st=1707537063~exp=1707537663~hmac=5ade8a0177c0314d1596699a30bbde3c6293c3741ef943a6deaab26c0c77341e" alt="Foto do Corretor">
+        <h1 class="text-3xl font-bold mt-4">João da Silva</h1>
+        <p class="text-gray-600 mt-2">Especialista em Imóveis Residenciais e Comerciais</p>
+        <p class="mt-4 max-w-2xl mx-auto">Com mais de 10 anos de experiência no mercado imobiliário, João tem um histórico comprovado em encontrar a casa perfeita para você e sua família.</p>
+    </div>
+    </section>
+</div>
+
+<!-- Imóveis -->
+
+<section class="py-10 bg-gray-100">
+  <div class="container mx-auto px-4">
+    <h2 id="imd" class="text-center text-[#b59252] text-4xl font-semibold mb-8">Imóveis em Destaque</h2>
+
+    <!-- Swiffy Slider -->
+    <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-arrow ">
+      <ul class="slider-container">
+        <!-- Slide/Card de Imóvel 1 -->
+        <li class="slide">
+          <div class="bg-white shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://img.freepik.com/fotos-gratis/fundo-rarotonga-belo-dia-de-verao_1203-4663.jpg?w=1800&t=st=1707537226~exp=1707537826~hmac=2bccba47ff5f5be69741284278ba745bf2aba1ee71a19ffcaf2d86552ca14e95" alt="Imóvel 1" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="font-semibold text-xl mb-2 card-title">Casa Espaçosa no Campo</h3>
+              <p class="text-gray-700 mb-4">Uma bela casa com 5 quartos e um enorme jardim.</p>
+              <a id="vm" href="https://www.exemploimovel1.com" class="inline-block bg-[#b59252] text-white hover:bg-[#a57248] transition-colors duration-1800 rounded px-4 py-2">Ver mais</a>
+            </div>
+          </div>
+        </li>
+        <!-- Slide/Card de Imóvel 2 -->
+        <li class="slide">
+          <div class="bg-white shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://img.olx.com.br/images/62/625474378171435.webp" alt="Imóvel 2" class="w-full h-64 object-cover">
+            <div  class="p-6">
+              <h3 class="font-semibold text-xl mb-2 card-title">Apartamento Moderno na Cidade</h3>
+              <p class="text-gray-700 mb-4">Apartamento de alto padrão com 3 quartos e vista panorâmica.</p>
+              <a id="vm" href="https://www.exemploimovel2.com" class="inline-block bg-[#b59252] text-white hover:bg-[#a57248] transition-colors duration-300 rounded px-4 py-2">Ver mais</a>
+            </div>
+          </div>
+        </li>
+        <!-- Slide/Card de Imóvel 3 -->
+        <li  class="slide">
+          <div  class="bg-white shadow-xl rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://img.olx.com.br/images/68/687492257246513.webp" alt="Imóvel 3" class="w-full h-64 object-cover">
+            <div  class="p-6">
+              <h3  class="font-semibold text-xl mb-2 card-title">Cobertura Luxuosa com Vista para o Mar</h3>
+              <p  class="text-gray-700 mb-4">Exclusividade e conforto definem esta cobertura espetacular.</p>
+              <a id="vm" href="https://www.exemploimovel3.com" class="inline-block bg-[#b59252] text-white hover:bg-[#a57248] transition-colors duration-300 rounded px-4 py-2">Ver mais</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Navegação e Indicadores -->
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+    </div>
+  </div>
+</section>
+
+
+<!-- Depoimentos -->
+<section class="bg-gray-100 py-10">
+  <div class="container mx-auto px-4">
+    <h2 id="nc" class="text-center text-[#b59252] text-3xl font-semibold mb-6">Nossos Clientes</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-items-center mx-auto">
+      <!-- Depoimento 1 -->
+      <div class="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg p-6 flex flex-col justify-between">
+        <blockquote class="text-gray-600 italic mb-6">"A experiência com o João foi excepcional. Ele entendeu exatamente o que estávamos procurando!"</blockquote>
+        <div class="flex items-center">
+          <img class="w-16 h-16 rounded-full mr-4 object-cover" src="https://img.freepik.com/fotos-gratis/retrato-de-jovem-latino-tirando-uma-selfie-em-pe-ao-ar-livre-na-rua_58466-15748.jpg?w=1800&t=st=1707537472~exp=1707538072~hmac=d03a8085114a372451ca6cfc705e76b630937e59604845fd40ee062fba74cccd" alt="Cliente 1">
+          <div>
+            <p class="font-semibold text-lg">Pedro Caracas</p>
+            <p class="text-gray-500 text-sm">Cliente Satisfeito</p>
+          </div>
+        </div>
+      </div>
+      <!-- Depoimento 2 -->
+      <div class="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg p-6 flex flex-col justify-between">
+        <blockquote class="text-gray-600 italic mb-6">"João não apenas nos ajudou a vender nossa antiga casa por um ótimo preço, mas também foi incansável na busca pela nossa nova residência. Recomendamos fortemente!"</blockquote>
+        <div class="flex items-center">
+          <img class="w-14 h-14 rounded-full mr-4 object-cover" src="https://img.freepik.com/fotos-premium/mulher-feliz-alegre-estudante-e-mostrando-o-simbolo-da-paz-durante-a-tirar-uma-foto-de-selfie-enquanto-esta-sentado-na-espreguicadeira-no-parque-em-um-dia-ensolarado_171337-40572.jpg?w=1800" alt="Cliente 2">
+          <div>
+            <p class="font-semibold text-lg">Ana Matilda</p>
+            <p class="text-gray-500 text-sm">Cliente Satisfeita</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-gray-100 py-10">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 id="cp" class="text-[#b59252] text-4xl font-semibold mb-6">Conquistas Profissionais</h2>
+      <p class="text-md text-gray-600">Uma trajetória de excelência no mercado imobiliário.</p>
+    </div>
+
+    <div  class="flex flex-wrap justify-center text-center">
+      <!-- Card: Imóveis Vendidos -->
+      <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
+        <div id="iv" class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-500 ease-in-out transform hover:-translate-y-1">
+          <p class="text-xl font-bold text-gray-800">Imóveis Vendidos</p>
+          <p class="text-4xl font-bold text-indigo-500 mt-2 mb-4">7500+</p>
+          <div class="text-indigo-500">
+            <i id="icone" class="fas fa-home fa-3x"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Clientes Felizes -->
+      <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
+        <div id="iv1" class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-500 ease-in-out transform hover:-translate-y-1">
+          <p class="text-xl font-bold text-gray-800">Clientes Felizes</p>
+          <p class="text-4xl font-bold text-green-500 mt-2 mb-4">4300+</p>
+          <div class="text-green-500">
+            <i id="icone" class="fas fa-users fa-3x"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Anos de Experiência -->
+      <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
+        <div id="iv2" class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-500 ease-in-out transform hover:-translate-y-1">
+          <p class="text-xl font-bold text-gray-800">Anos de Experiência</p>
+          <p class="text-4xl font-bold text-purple-500 mt-2 mb-4">20+</p>
+          <div class="text-purple-500">
+            <i id="icone" class="fas fa-award fa-3x"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Parcerias Sólidas -->
+      <div class="w-full sm:w-1/2 lg:w-1/4 px-4">
+        <div id="iv3" class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-500 ease-in-out transform hover:-translate-y-1">
+          <p class="text-xl font-bold text-gray-800">Parcerias Sólidas</p>
+          <p class="text-4xl font-bold text-blue-500 mt-2 mb-4">100+</p>
+          <div class="text-blue-500">
+            <i id="icone" class="fas fa-handshake fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<a href="https://wa.me/15551234567/?text=Hello%20world" class="whatsapp-button" target="_blank">
+  <img src="https://cdn.discordapp.com/attachments/1194318372712751195/1206262943050637352/image.png?ex=65db5ee8&is=65c8e9e8&hm=54f435ea7b2adae49722c90c8a6cb0bb62c5658e822e6b5a7e0e6851c38579aa&" alt="WhatsApp Icon" class="whatsapp-icon">
+</a>
+
+
+<section class="py-10 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 id="nc" class="text-2xl font-semibold mb-4 text-[#b59252]">Entre em Contato</h2>
+    <p class="mb-6">Você pode me seguir nas redes sociais ou enviar uma mensagem diretamente para mim.</p>
+    <div class="flex justify-center space-x-4 mb-6">
+      <a href="https://www.facebook.com/" class="text-gray-600 hover:text-blue-600">
+        <i class="fab fa-facebook-f fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="text-gray-600 hover:text-pink-600">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/" class="text-gray-600 hover:text-blue-500">
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </a>
+
+    </div>
+    <button id="eum" class="bg-[#b59252] text-white font-bold py-2 px-6 rounded hover:bg-[#a57248] transition duration-300">
+      <a  href="mailto:seuemail@exemplo.com">Envie uma Mensagem</a>
+    </button>
+  </div>
+</section>
+
+
+<footer class="bg-gray-200 text-gray-800 py-8">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-between items-center text-center lg:text-left">
+      <div class="w-full lg:w-auto mb-6 lg:mb-0">
+        <a href="#" class="flex items-center justify-center lg:justify-start">
+          <img src="https://placehold.co/50" alt="Logo" class="mr-3">
+          <span id="imd" class="text-2xl font-bold">MeuCorretor</span>
+        </a>
+        <p class="mt-2">Conectando você ao seu próximo lar.</p>
+      </div>
+      <div class="w-full lg:w-auto flex justify-center lg:justify-end space-x-6">
+        <a href="#" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm">
+      <p>&copy; 2024 MeuCorretor. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+
+</body>
+</html>

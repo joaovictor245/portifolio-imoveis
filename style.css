@@ -1,0 +1,138 @@
+body {
+    background-color: #ff0000; /* Substitua pela cor cinza claro desejada */
+}
+
+/* Altera a cor dos títulos h1, h2, h3 para laranja */
+h1, h2, h3 {
+    color: #FFA500;
+}
+
+.bg-gray-30 shadow-sm pt-3 pb-3{
+    padding: 0 0 10% 0;
+}
+
+#icone{
+    color: #FFA500;
+}
+
+#imagem{
+    background-image: url('https://cdn.discordapp.com/attachments/1194318372712751195/1206258425982488657/Design_sem_nome.png?ex=65db5ab3&is=65c8e5b3&hm=af53cc9e7301a0b3df7a72b9991f722f0996f01a795779947bc838ceb0aa7ce4&'); 
+    padding: 10% 0 0 0;
+    background-attachment: fixed; /* Para fixar a imagem enquanto você rola a página */
+    width: 100%;
+}
+/* Estiliza os links para usar azul claro (#4A90E2) no estado normal e laranja (#FFA500) no hover */
+a {
+    color: #fff; /* Azul Claro */
+    transition: color 0.3s ease;
+}
+
+
+
+/* Personaliza outros elementos textuais com o azul claro (#4A4A4A) para descrições */
+p, .text-gray-600 {
+    color: #000000!important;
+}
+
+/* Estiliza os ícones do FontAwesome com a cor laranja (#FFA500) */
+.fa {
+    color: #FFA500;
+}
+
+/* Adiciona uma cor secundária azul claro (#4A90E2) para destacar */
+.bg-blue-vibrant {
+    background-color: #FFA500;
+}
+
+/* Adiciona sombra e borda aos cards e botões */
+.shadow-hover:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.border-dashed {
+    border: 2px dashed #FFA500;
+}
+
+/* Personaliza os botões para usar cor de destaque dourada (#b59252) */
+.btn-highlight {
+    background-color: #b59252;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+.btn-highlight:hover {
+    background-color: #a57248; /* Tom um pouco mais escuro no hover */
+}
+
+#eum{
+    background-color: #FFA500;
+}
+
+
+#imd {
+    color: #FFA500;
+}
+
+#nc{
+    color: #FFA500;
+}
+
+#cp{
+    color: #FFA500;
+}
+
+#vm{
+    background-color: #FFA500;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Para garantir que o botão fique acima de outros elementos */
+}
+
+.whatsapp-icon {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Para manter a proporção da imagem */
+}
+
+/* Utilize unidades de medida relativas para melhor adaptabilidade */
+
+/* Altere os estilos do cabeçalho para tamanhos menores */
+header {
+    padding: 1rem; /* Ajuste o preenchimento para telas menores */
+}
+
+/* Ajuste a altura da seção do perfil do corretor */
+#imagem {
+    padding-top: 10%; /* Ajuste o preenchimento superior */
+}
+
+/* Ajuste os estilos dos cards de imóveis em destaque */
+.slide {
+    width: 90%; /* Ajuste a largura do slide para ocupar mais espaço na tela */
+    margin: 0 auto; /* Centralize o slide */
+}
+
+/* Estilos específicos para dispositivos móveis usando media queries */
+@media screen and (min-width: 768px) {
+    /* Para telas maiores que 768px (tablets e desktops) */
+
+    /* Ajuste os estilos do cabeçalho para telas maiores */
+    header {
+        padding: 2rem; /* Ajuste o preenchimento para telas maiores */
+    }
+
+    /* Ajuste a altura da seção do perfil do corretor para telas maiores */
+    #imagem {
+        padding-top: 5%; /* Ajuste o preenchimento superior */
+    }
+
+    /* Ajuste os estilos dos cards de imóveis em destaque para telas maiores */
+    .slide {
+        width: 30%; /* Reduza a largura do slide para evitar que ocupe toda a tela */
+        margin: 0 15px; /* Adicione margens laterais */
+    }
+}
